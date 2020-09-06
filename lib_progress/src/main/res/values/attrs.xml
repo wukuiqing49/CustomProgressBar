@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomProgressStyle">
+        <attr name="defultColor" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="contentTextSize" format="dimension" />
+        <attr name="curProgress" format="integer" />
+        <attr name="maxProgress" format="integer" />
+        <attr name="isCicleTheme" format="boolean"/>
+    </declare-styleable>
+
+
+</resources>

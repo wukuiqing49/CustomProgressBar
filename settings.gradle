@@ -1,0 +1,4 @@
+rootProject.name='CustomProgressBar'
+include ':app'
+include ':lib_progress'
+include ':lib_demo'

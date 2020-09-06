@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<com.wu.progress.CustomProgressView
+    app:defultColor="@android:color/black"
+    app:progressColor="@android:color/holo_green_dark"
+    app:strokeWidth="20dp"
+    app:contentTextSize="15sp"
+    app:isCicleTheme="false"
+    app:curProgress="0"
+    app:maxProgress="1000"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"/>
+
+</RelativeLayout>
